@@ -8,7 +8,7 @@ from sklearn.datasets import make_classification
 from sklearn import tree
 
 
-file_path = r'C:\Users\lilyg\OneDrive\Desktop\data-final.csv'
+file_path = r'C:\Users\lg\OneDrive\Desktop\data-final.csv'
 try:
     df = pd.read_csv(file_path, sep='\t')
     print("CSV file read successfully.")
